@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@font-face{
+    font-family: hope;
+    src: url(../font/jotia_light.woff);
+}
+.friday{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/hn-black-friday-window.jpg);
+}
+
+.flag img{
+    height: 30px;
+    width: 100%;
+}
+
+
+.head{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.dip{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    padding: 60px;
+    color: white;
+    font-family: hope;
+    justify-content: space-between;
+}
+.iner-1{
+    height: 200px;
+    width: 40%;
+}
+
+
+.book{
+    width: 27%;
+    height: 50px;
+    color: white;
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 20px;
+    border: .15px solid white;
+    font-size: 16px;
+}
+.book:hover{
+    background-color: white;
+    color: black;
+}
+
+.flight{
+    height: 230px;
+    width: 250%;
+    gap: 20px;
+    padding-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.hajo-1{
+    height: 200px;
+    width: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/rendition.360.360\ \(5\).jpg);
+}
+
+
+.hajo-2{
+    height: 200px;
+    width: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/rendition.360.360\ \(4\).jpg);
+}
+.hajo-3{
+    height: 200px;
+    width: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/rendition.360.360\ \(3\).jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+.frida{
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/hn-black-friday-window.jpg);
+}
+
+.heads{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 50px;
+}
+.heads a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.dis{
+    height: 150px;
+    width: 100%;
+
+    padding: 60px;
+    color: white;
+    font-family: hope;
+    justify-content: space-between;
+}
+
+
+.iners-1{
+    height: 200px;
+    margin-top: 40px;
+    width: 50%;
+}
+
+.flights{
+    height: 300px;
+    width:100%;
+   
+    border-radius: 2%;
+    background-color: white;
+}
+.all{
+    gap:20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.nam-1{
+    height: 30px;
+    width: 10%;
+    gap: 5px;
+    display: flex;
+    color: black;
+    background-color: white;
+}
+
+
+.nam-2{
+    height: 30px;
+    width: 10%;
+    gap: 5px;
+    display: flex;
+    color: black;
+    background-color: white;
+}
+
+.nam-3{
+    height: 30px;
+    width: 10%;
+    gap: 5px;
+    color: black;
+    display: flex;
+    background-color: white;
+}
+ .mat{
+   height: 25px;
+   width: 25%;
+   border-radius: 100%;
+}  
+.mat:hover{
+    background-color: white;
+}
+
+.mypen{
+    width: 95%;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    border: none;
+    height: 100px;
+    background-color: #f5f5f5;
+}
+
+.ball-1{
+    height: 60px;
+    width: 20%;
+}
+
+.ball-2{
+    height: 60px;
+    width: 20%;
+}
+
+.ball-3{
+    height: 60px;
+    width: 20%;
+}
+
+.ball-4{
+    height: 60px;
+    width: 20%;
+}
+
+.ball-5{
+    height: 60px;
+    width: 20%;
+}
+
+.ball-6{
+    height: 60px;
+    width: 20%;
+}
+
+
+ .marg{
+    padding: 30px;
+    
+
+    
+}
+.flex{
+    
+    width: 100%;
+    height: 100px;
+
+}
+.icon{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+
+} 
+.ico{
+    height: 100px;
+    width: 40%;
+
+}
+.Gamany{
+    height: 200px;
+    width: 100%;
+    justify-content: space-between;
+}
+.select{
+    border: none;
+}
+
+.f_name{
+    height: 30px;
+    width: 30%;
+    padding: 70px;
+}
+
+
+.subm{
+    margin-top: 10px;
+    height: 40px;
+    width: 20%;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    font-size: 10px;
+}
+.error{
+    color: red;
+}
+
+for{
+    border: .5px solid #DDD;
+    padding: 20px;
+    border-radius: 5px;
+    width: 40%;
+    height: 400px;
+    padding-top: 30px;
+}
+.f_name{
+    margin-bottom: 10px;
+    outline: none;
+    padding: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: 10px;
+    border-right: .1px solid #000;
+    width: 100%;
+    margin-left: 20PX;
+    border-bottom: .1px solid #000;
+}
+.l_name{
+    margin-bottom: 10px;
+    outline: none;
+    padding: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: 10px;
+    border-right: .1px solid #000;
+    width: 100%;
+    margin-left: 20PX;
+    border-bottom: .1px solid #000;
+}
+.cover{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+}
+
+.image{
+    height: 500px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+    display: flex;
+    background-color: white;
+}
+
+
+.image-1{
+    width: 45%;
+    height: 450px;
+    margin-left: 30px;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/h1-ffp-cards-qsuite-crew.jpg);
+}
+
+.image-2{
+    width: 45%;
+    height: 450px;
+    margin-right: 30px;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/h1-hand-baggage.jpg);
+}
+
+
+
+
+.foot{
+    height: 400px;
+    width: 100%;
+    gap: 10px;
+    color: white;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    background-color: #000;
+}
+
+.foo-1{
+    height: 300px;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-image: url("./https://framerusercontent.com/images/EqQNNITtxjX4mh8GcvSnQidsEIg.svg");
+}
+
+.foo-2{
+    height: 300px;
+    width: 15%;
+    font-family: hope;
+}
+
+.foo-3{
+    height: 300px;
+    width: 15%;
+    font-family: hope;
+}
+
+.foo-4{
+    height: 300px;
+    width: 15%;
+    font-family: hope;
+}
+
+.foo-5{
+    height: 300px;
+    width: 15%;
+    font-family: hope;
+    margin-right: 40px;
+}
+
+.foo-1 IMG{
+    height: 90PX;
+    width: 70%;
+}
+
+.COPY{
+    height: 90PX;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.COPY-1{
+    height: 90PX;
+    width: 20%;
+    margin-left: 40px;
+    
+}
+
+.COPY-2{
+    height: 90PX;
+    width: 20%;
+    display: flex;
+    font-family: hope;
+    padding-top: 20px;
+    margin-right: 50px;
+    
+}
+.COPY-2 img{
+    height: 30px;
+    width: 100%;
+    border-radius: 5%;
+}
+
